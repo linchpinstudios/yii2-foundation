@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/MIT
  */
 
-namespace linchpin\foundation;
+namespace linchpinstudios\foundation;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class FoundationAsset extends AssetBundle
+class Asset extends AssetBundle
 {
     public $sourcePath = '@vendor/linchpin-studios/yii2-foundation/dist';
     public $css = [

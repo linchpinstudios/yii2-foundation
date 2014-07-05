@@ -18,6 +18,8 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-2": { "linchpin\\foundation\\": "" }
+		"psr-4": {
+			"linchpinstudios\\foundation\\": ""
+		}
 	}
 }
