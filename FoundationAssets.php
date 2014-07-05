@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class Asset extends AssetBundle
+class FoundationAssets extends AssetBundle
 {
     public $sourcePath = '@vendor/linchpin-studios/yii2-foundation/dist';
     public $css = [
