@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/MIT
  */
 
-namespace yii\bootstrap;
+namespace linchpin\foundation;
 
 use yii\web\AssetBundle;
 
