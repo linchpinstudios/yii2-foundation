@@ -18,12 +18,8 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-<<<<<<< HEAD
 		"psr-4": {
 			"linchpinstudios\\foundation\\": ""
 		}
-=======
-		"psr-4": { "linchpin\\foundation\\": "" }
->>>>>>> FETCH_HEAD
 	}
 }
