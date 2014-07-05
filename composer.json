@@ -1,0 +1,23 @@
+ {
+	"name": "linchpin-studios/Yii2-foundation",
+	"description": "Zurb Foundation Frontend Framework for the Yii2 framework",
+	"keywords": ["yii2", "foundation"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/linchpin-studios/Yii2-foundation/issues",
+		"source": "https://github.com/linchpin-studios/Yii2-foundation"
+	},
+	"authors": [
+		{
+			"name": "Josh Hagel",
+			"email": "joshhagel@linchpinstudios.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": { "yii\\foundation\\": "" }
+	}
+}
