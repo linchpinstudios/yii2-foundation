@@ -5,8 +5,8 @@
 	"type": "yii2-extension",
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/linchpin-studios/Yii2-foundation/issues",
-		"source": "https://github.com/linchpin-studios/Yii2-foundation"
+		"issues": "https://github.com/linchpinstudios/Yii2-foundation/issues",
+		"source": "https://github.com/linchpinstudios/Yii2-foundation"
 	},
 	"authors": [
 		{
