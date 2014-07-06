@@ -24,5 +24,9 @@ class FoundationAssets extends AssetBundle
     ];
     public $js = [
         'js/vendor/modernizr.js',
+        'js/foundation.min.js',
+    ];
+    public $depends = [
+        'yii\web\JqueryAsset',
     ];
 }
