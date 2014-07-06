@@ -94,6 +94,10 @@ use yii\base\InvalidConfigException;
             $class[] = $this->direction;
         }
         
+        if($this->labelRight){
+            $class[] = 'label-right';
+        }
+        
         return implode(" ", $class);
     }
     
@@ -142,20 +146,20 @@ use yii\base\InvalidConfigException;
     private function renderItems()
     {
         $items = [];
-        $icons = $this->icons->items;
+        $icons = $this->icons['items'];
         foreach($icons as $i){
-            $labelContent = $i->label;
+            $labelContent = $i['label'];
             if ($this->encodeLabel) {
                 $labelContent = Html::encode($labelContent);
             }
             $label = Html::tag('label',$labelContent)."\n";
             
-            $icon = Html::tag('i','',['class'=>$i->icon])."\n";
+            $icon = Html::tag('i','',['class'=>$i['icon']])."\n";
             
             $options = [
                 'class' => 'item',
             ];
-            $url = $i->url;
+            $url = $i['url'];
             $items[] = Html::a($icon.$label,$url,$options)."\n";
         }
         return implode("\n", $items);
