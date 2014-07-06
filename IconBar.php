@@ -94,6 +94,10 @@ use yii\base\InvalidConfigException;
             $class[] = $this->direction;
         }
         
+        if($this->labelRight){
+            $class[] = 'label-right';
+        }
+        
         return implode(" ", $class);
     }
     
