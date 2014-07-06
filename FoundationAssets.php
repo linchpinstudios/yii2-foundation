@@ -21,6 +21,7 @@ class FoundationAssets extends AssetBundle
     public $css = [
         'css/normalize.css',
         'css/foundation.min.css',
+        'font/foundation-icons/foundation-icons.css',
     ];
     public $js = [
         'js/vendor/modernizr.js',
