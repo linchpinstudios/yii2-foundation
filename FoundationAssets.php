@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class FoundationAssets extends AssetBundle
 {
-    public $sourcePath = '@vendor/linchpin-studios/yii2-foundation/dist';
+    public $sourcePath = '@vendor/linchpinstudios/yii2-foundation/dist';
     public $css = [
         'css/normalize.css',
         'css/foundation.min.css',
