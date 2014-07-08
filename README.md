@@ -16,9 +16,9 @@ Installation
 <h5>1) Add to your composer.json</h5>
 ```
 "require": {
-  ...
+  // ...
   "linchpinstudios/yii2-foundation": "*",
-  ...
+  // ...
 },
 ```
 
@@ -27,13 +27,16 @@ Installation
 php composer.phar update
 ```
 
-<h5>3) Add to your Assets/AppAssets.php</h5>
+
+Setup Assets
+===============
+
+
+<h5>Add to your Assets/AppAssets.php</h5>
 ```
 public $depends = [
-  ...
+  // ...
   'linchpinstudios\foundation\FoundationAssets',
-  ...
+  // ...
 ];
 ```
-
-<h6>Note: ellipsis (...) don't actually get added, they represent any other code you have in the arrays</h6>
