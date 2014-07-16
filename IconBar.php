@@ -58,6 +58,7 @@ use yii\base\InvalidConfigException;
      * @var boolean whether the label should be HTML-encoded.
      */
      public $encodeLabel = true;
+     
     
     /**
      * run function.
@@ -156,9 +157,19 @@ use yii\base\InvalidConfigException;
             
             $icon = Html::tag('i','',['class'=>$i['icon']])."\n";
             
-            $options = [
-                'class' => 'item',
-            ];
+            $options = ArrayHelper::getValue($i, 'options', []);
+            
+            if(isset($options['class']){
+                $addClass = 'item '.$options['class'];
+                $options = [
+                    'class' => $addClass,
+                ];
+            }else{
+                $options = [
+                    'class' => 'item',
+                ];
+            }
+            
             $url = $i['url'];
             $items[] = Html::a($icon.$label,$url,$options)."\n";
         }
