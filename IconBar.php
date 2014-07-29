@@ -9,6 +9,7 @@ namespace linchpinstudios\foundation;
 
 use yii\helpers\Html;
 use yii\base\InvalidConfigException;
+use yii\helpers\ArrayHelper;
 
 /**
  * An Icon Bar provides a menu to quickly navigate an app. Use the Icon Bar 
