@@ -60,6 +60,8 @@ use yii\helpers\ArrayHelper;
      */
      public $encodeLabel = true;
      
+     public $options = [];
+     
     
     /**
      * run function.
@@ -166,9 +168,7 @@ use yii\helpers\ArrayHelper;
                     'class' => $addClass,
                 ];
             }else{
-                $options = [
-                    'class' => 'item',
-                ];
+                $options['class'] = 'item';
             }
             
             $url = $i['url'];
