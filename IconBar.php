@@ -159,7 +159,7 @@ use yii\base\InvalidConfigException;
             
             $options = ArrayHelper::getValue($i, 'options', []);
             
-            if(isset($options['class']){
+            if(isset($options['class'])){
                 $addClass = 'item '.$options['class'];
                 $options = [
                     'class' => $addClass,
