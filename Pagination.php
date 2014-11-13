@@ -37,7 +37,7 @@ use yii\helpers\ArrayHelper;
  * @since 0.1
  */
  
- class IconBar extends \yii\base\Widget
+ class Pagination extends \yii\base\Widget
  {
     /**
      * @var string the bar direction
@@ -164,7 +164,9 @@ use yii\helpers\ArrayHelper;
             
             if(isset($options['class'])){
                 $addClass = 'item '.$options['class'];
-                $options['class'] = $addClass;
+                $options = [
+                    'class' => $addClass,
+                ];
             }else{
                 $options['class'] = 'item';
             }
